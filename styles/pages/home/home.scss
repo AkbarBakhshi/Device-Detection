@@ -1,0 +1,18 @@
+.home {
+    margin-top: 2rem;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home__welcome {
+    text-transform: uppercase;
+    @media only screen and (hover: none) and (pointer: coarse) {
+        color: red;
+    }
+}
+
+.home__youtube__channel__link {
+    margin-top: 2rem;
+}
