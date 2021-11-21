@@ -48,6 +48,6 @@ app.use((err, req, res, next) => {
 })
 
 //=======================Connecting to port====================================
-app.listen(process.env.PORT || port, '0.0.0.0', () => {
+app.listen(process.env.PORT || port, () => {
   console.log(`App listening at http://localhost:${port}`)
 })
